@@ -1,3 +1,5 @@
+## Named Entity Recognition App
+
 Welcome to the Named Entity Recognition (NER) App! This project is an application that utilizes Natural Language Processing (NLP) techniques to identify and classify named entities within text.
 
 ## Overview
@@ -5,6 +7,7 @@ Welcome to the Named Entity Recognition (NER) App! This project is an applicatio
 Named Entity Recognition (NER) is a subtask of information extraction that seeks to locate and classify named entities mentioned in unstructured text into predefined categories such as the names of persons, organizations, locations, expressions of times, quantities, monetary values, percentages, etc.
 
 A Glimpse of the App :
+
 
 ![NER App Output](Named%20Entity%20Recognition%20App/Output/Output.png)
 
