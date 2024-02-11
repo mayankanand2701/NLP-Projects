@@ -8,8 +8,8 @@ Named Entity Recognition (NER) is a subtask of information extraction that seeks
 
 A Glimpse of the App :
 
+![Web App Image](Output/Output.png)
 
-![NER App Output](Named%20Entity%20Recognition%20App/Output/Output.png)
 
 ## Features
 
@@ -23,8 +23,8 @@ A Glimpse of the App :
 - Python
 - Flask
 - Natural Language Toolkit (NLTK)
-- HTML/CSS
-- JavaScript
+- HTML
+- CSS
 
 If you have any questions or suggestions regarding this project, feel free to [contact me](mailto:mayankanand2701@gmail.com).
 
