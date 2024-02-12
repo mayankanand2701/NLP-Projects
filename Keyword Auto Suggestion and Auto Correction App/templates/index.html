@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Autocorrect App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body style="background:#a1e5a1;">
+    <div class="container">
+        <br>
+        <h1 class="text-center">Autosuggest and Autocorrect App</h1>
+        <form method="POST" action="/suggest" class="container bg-dark" style="border-radius:15px;">
+            <div class="form-group">
+                <br>
+                <label for="keyword"style="color:white;">Enter a word:</label>
+                <input type="text" class="form-control" id="keyword" name="keyword" required>
+            </div>
+            <button type="submit" class="btn btn-primary"  style="margin-bottom: 12px;">Submit</button>
+        </form>
+        <div id="suggestions" class="mt-4">
+        {% if suggestions %}
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Suggested Word</th>
+                    <th>Similarity</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for suggestion in suggestions %}
+                <tr>
+                    <td>{{ suggestion['Word'] }}</td>
+                    <td>{{ suggestion['Similarity'] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        {% endif %}
+        </div>
+    </div>
+</body>
+</html>
