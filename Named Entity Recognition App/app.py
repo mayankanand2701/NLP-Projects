@@ -22,3 +22,5 @@ def entity():
 
 if "__name__"=="__main__":
     app.run(debug=True)
+    
+# to run this app type this in terminal : flask run 
