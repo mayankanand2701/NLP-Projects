@@ -8,6 +8,7 @@ Here's a brief overview of the projects included in this repository:
 
 1. **Project 1** : Named Entity Recognition
 2. **Project 2** : Keyword Autosuggestion App
+3. **Project 3** : Resume Screening App
 
 Each project is contained within its own directory along with detailed documentation and instructions on how to run and use it.
 
