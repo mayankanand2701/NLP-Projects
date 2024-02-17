@@ -26,7 +26,10 @@ A Glimpse of the App :
 - HTML : Used for structuring the web interface.
 - CSS : Employed for styling and enhancing the visual appearance of the app.
 
-  
+## Run 
+To run this project open termnial at that location and run command : flask run
+
+
 If you have any questions or suggestions regarding this project, feel free to [contact me](mailto:mayankanand2701@gmail.com).
 
 Happy Coding!
