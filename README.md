@@ -7,6 +7,7 @@ Welcome to the NLP Projects Repository! This repository hosts various Natural La
 Here's a brief overview of the projects included in this repository:
 
 1. **Project 1** : Named Entity Recognition
+2. **Project 2** : Keyword Autosuggestion App
 
 Each project is contained within its own directory along with detailed documentation and instructions on how to run and use it.
 
